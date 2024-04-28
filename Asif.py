@@ -163,7 +163,7 @@ def meyexudi():
   uuid = "KPL("+str(os.getuid())+"(KILLER)"+str(os.getuid())+")AXN"
   id = '-'.join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/Asif950/Aprooval/blob/main/Aprooval.txt').text
+    httpCaht = requests.get('https://github.com/Asifsakhani786/Asifsakhani78/blob/main/Sakhani.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
@@ -179,7 +179,7 @@ def meyexudi():
       print(' \x1b[1;97m║══[𝟸] WI-FI  AND DATA BOTH WORKING 100%')
       print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
       input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://m.me/+923417020930?text='+tks),approval()      
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.link/5evi6q?text='+tks),approval()      
       time.sleep(1)
       meyexudi()
   except:
