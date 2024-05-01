@@ -157,7 +157,7 @@ wt=f' {K}[{GREEN}!{K}] {P}'
 #fst=f'{dot}[{H}sathi{M}={H}abir{M}={H}tisha{M}={H}mahin{M}={H}samim{P}]'
 #lst=f'{dot}[{H}akter{M}={H}khan{M}={H}hasan{M}={H}ahmed{M}={H}ali{P}]'
 limitt=f'{dot}EXAMPLE [{H}5000{M}-{H}10000{M}-{H}20000{M}-{H}40000{P}]'
-c7=f'{dot}EXAMPLE [{H}{M}{H}0177{M}-{H}0161{M}-{H}0176{M}-{H}0196{M}-{H}0179{P}]'
+c7=f'{dot}EXAMPLE [{H}{M}{H}92301{M}-{H}92302{M}-{H}92303{M}-{H}92304{M}-{H}92305{P}]'
 #c6=f'{dot}EXAMPLE [{H}01778{M}-{H}01991{M}-{H}01661{M}-{H}01776{M}-{H}01996{M}-{H}01779{P}]'
 #c8=f'{dot}[{H}017{M}-{H}019{M}-{H}016{M}-{H}013{M}-{H}018{M}-{H}014{M}-{H}015{P}]'
 mtd,cp_xdx,cokix=[],[],[]
@@ -173,7 +173,8 @@ def banner():
    / /\ \  \___ \  | | |  __|  
   / ____ \ ____) |_| |_| |     
  /_/    \_\_____/|_____|_|     
-      \033[1;91m<\033[1;41m\033[1;97m ASIF SAKHANI 03417020930\033[;0m\033[1;91m>\033[1;92m                                            
+    
+  \033[1;91m<\033[1;41m\033[1;97m ASIF SAKHANI 03417020930\033[;0m\033[1;91m>\033[1;92m                                            
 \033[1;32m
 \033[3;30m\033[2;37mPa\033[2;31mid \033[2;37mVers\033[2;36mi\033[2;37mon \033[2;34m3.2\x1b[0m
 \033[38;5;96m\033[47m  \x1b[0m\033[38;5;196m DEVELOPER   :   ASIF SAKHANI 
@@ -449,7 +450,7 @@ def m3(idf,pw):
  global loop
  global ok
  global agents
- animasi = random.choice(["\33[1;32mASIF","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt","\33[1;32mBaba jutt"])
+ animasi = random.choice(["\33[1;32mASIF","\33[1;32mASIF","\33[1;32mBaba jutt","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF","\33[1;32mASIF"])
  sys.stdout.write(f'\r{P}[{animasi}{H}{P}] [{B}%s{P}]{U}- -{H}OK{P}[{GREEN}%s{P}]'%(loop,ok)),
  try:
   for ps in pw:
